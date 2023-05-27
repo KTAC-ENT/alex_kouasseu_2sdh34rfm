@@ -8,18 +8,7 @@
     <property name="now" value="now()" dbms="mysql"/>
     <property name="now" value="now()" dbms="postgresql,h2"/>
 
-    <changeSet id="ROLE0001" author="Alex KOUASSEU">
-        <insert tableName="role">
-            <column name="id" value="1"/>
-            <column name="name" value="ROLE_ADMIN"/>
-        </insert>
-        <insert tableName="role">
-            <column name="id" value="2"/>
-            <column name="name" value="ROLE_ENSEIGNANT"/>
-        </insert>
-        <insert tableName="role">
-            <column name="id" value="3"/>
-            <column name="name" value="ROLE_ETUDIANT"/>
-        </insert>
+    <changeSet id="STUDENT001" author="Alex KOUASSEU">
+
     </changeSet>
 </databaseChangeLog>
