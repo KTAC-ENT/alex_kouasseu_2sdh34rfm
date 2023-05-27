@@ -1,0 +1,22 @@
+server:
+  port: 8008
+
+spring:
+  datasource:
+    driver-class-name: org.h2.Driver
+    url: ${DB_URL}
+    username: ${DB_USERNAME}
+    password: ${DB_PASSWORD}
+  liquibase:
+    change-log: classpath:/db/master.xml
+    enabled: ${LIQUIBASE_ENABLE}
+    drop-first: ${LIQUIBASE_DROOP_FIRST:}
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+    database: h2
+    database-platform: org.hibernate.dialect.H2Dialect
