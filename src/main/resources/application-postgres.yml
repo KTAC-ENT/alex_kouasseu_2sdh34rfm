@@ -1,0 +1,19 @@
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: ${DB_URL:jdbc:postgresql:anywr}
+    username: ${DB_USERNAME:kouass}
+    password: ${DB_PASSWORD:kouass2023}
+  liquibase:
+    change-log: classpath:/db/master.xml
+    enabled: ${LIQUIBASE_ENABLE:true}
+    drop-first: ${LIQUIBASE_DROOP_FIRST:false}
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+    database: postgresql
+    database-platform: org.hibernate.dialect.PostgreSQLDialect

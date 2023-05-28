@@ -8,7 +8,22 @@
     <property name="now" value="now()" dbms="mysql"/>
     <property name="now" value="now()" dbms="postgresql,h2"/>
 
-    <changeSet id="STUDENT001" author="Alex KOUASSEU">
-
+    <changeSet id="ISERTENS001" author="Alex KOUASSEU">
+        <sqlFile encoding="UTF-8"
+                 path="data/enseingant.sql"
+                 relativeToChangelogFile="true"
+                 stripComments="true"/>
+    </changeSet>
+    <changeSet id="INSERTSALL002" author="ALex KOUASSEU">
+        <sqlFile encoding="UTF-8"
+                 path="data/salle.sql"
+                 relativeToChangelogFile="true"
+                 stripComments="true"/>
+    </changeSet>
+    <changeSet id="INSERTETU001" author="Alex KOUASSEU">
+        <sqlFile encoding="UTF-8"
+                 path="data/etudiant.sql"
+                 relativeToChangelogFile="true"
+                 stripComments="true"/>
     </changeSet>
 </databaseChangeLog>

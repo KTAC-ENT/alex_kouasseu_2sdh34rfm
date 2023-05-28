@@ -2,6 +2,7 @@ package com.kouasseu.alex_kouasseu_2sdh34rfm.authentification.dao;
 
 import com.kouasseu.alex_kouasseu_2sdh34rfm.authentification.entities.User;
 import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
 
 import java.util.Optional;
 
@@ -14,8 +15,7 @@ import java.util.Optional;
  * Project : alex_kouasseu_2sdh34rfm<br></br>
  * Package : com.kouasseu.alex_kouasseu_2sdh34rfm.persistence.h2.repositories.doa<br></br>
  */
-
-
+@Repository
 public interface UserRepository extends JpaRepository<User, Long> {
     Optional<User> findByEmail(String email);
     boolean existsByEmail(String email);

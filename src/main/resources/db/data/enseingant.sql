@@ -1,0 +1,10 @@
+INSERT INTO enseignant (id, prenom, nom) VALUES (1, 'Harwell', 'Charman'); 
+INSERT INTO enseignant (id, prenom, nom) VALUES (2, 'Row', 'Beldum'); 
+INSERT INTO enseignant (id, prenom, nom) VALUES (3, 'Auberta', 'Santer'); 
+INSERT INTO enseignant (id, prenom, nom) VALUES (4, 'Dione', 'Meffin'); 
+INSERT INTO enseignant (id, prenom, nom) VALUES (5, 'Samson', 'Broke'); 
+INSERT INTO enseignant (id, prenom, nom) VALUES (6, 'Marlens', 'Beckett'); 
+INSERT INTO enseignant (id, prenom, nom) VALUES (7, 'Kearney', 'Leddy'); 
+INSERT INTO enseignant (id, prenom, nom) VALUES (8, 'Penrod', 'Gilfillan'); 
+INSERT INTO enseignant (id, prenom, nom) VALUES (9, 'Lorry', 'Ladd'); 
+INSERT INTO enseignant (id, prenom, nom) VALUES (10, 'Dawna', 'Gerdts'); 

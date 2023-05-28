@@ -1,0 +1,10 @@
+INSERT INTO salle_classe (id, nom, enseignant_id) VALUES (1, 'CLS A', 10);
+INSERT INTO salle_classe (id, nom, enseignant_id) VALUES (2, 'CLS B', 9);
+INSERT INTO salle_classe (id, nom, enseignant_id) VALUES (3, 'CLS C', 8);
+INSERT INTO salle_classe (id, nom, enseignant_id) VALUES (4, 'CLS D', 7);
+INSERT INTO salle_classe (id, nom, enseignant_id) VALUES (5, 'CLS E', 6);
+INSERT INTO salle_classe (id, nom, enseignant_id) VALUES (6, 'CLS F', 5);
+INSERT INTO salle_classe (id, nom, enseignant_id) VALUES (7, 'CLS G', 4);
+INSERT INTO salle_classe (id, nom, enseignant_id) VALUES (8, 'CLS H', 3);
+INSERT INTO salle_classe (id, nom, enseignant_id) VALUES (9, 'CLS I', 2);
+INSERT INTO salle_classe (id, nom, enseignant_id) VALUES (10, 'CLS J', 1);
